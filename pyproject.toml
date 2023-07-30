@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cw4-vacancy-parser"
+version = "0.1.0"
+description = ""
+authors = ["guzel <guzel.kh23@gmail.ru>"]
+readme = "README.md"
+packages = [{include = "cw4_vacancy_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
